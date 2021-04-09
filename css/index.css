@@ -96,8 +96,16 @@ header{
     color: black;
 }
 .header-image{
-    margin-top: 1.5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     background-image: url('../img/jumbo.jpg');
+    height: 20vh;
+    background-size: cover;
+}
+.header-image-about{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-image: url('../img/jumbo-about.png');
     height: 20vh;
     background-size: cover;
 }
@@ -110,12 +118,18 @@ header{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.about-top{
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+
 /* middle content styling */
 .middle-content {
     margin-bottom: 20px;
